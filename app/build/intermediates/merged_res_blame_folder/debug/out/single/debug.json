@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/layout_activity_main.xml.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app.instagramlikeimagevideopicker.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.app.instagramlikeimagevideopicker.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

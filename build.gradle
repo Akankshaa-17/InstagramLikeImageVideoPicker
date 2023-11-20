@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.8.22'
+    ext.navigationVersion = '2.4.1'
+    ext.room_version ='2.5.1'
+    ext.appcompat ='1.6.1'
+    ext.material ='1.9.0'
+    ext.versionCompileSdk = 33
+    ext.versionTargetSdk = 33
+    ext.versionMinSdk = 24
+    ext.glide = '4.14.2'
+    ext.kotlinx_coroutines ='1.6.4'
+    ext.activity ='1.7.1'
+    ext.legacy_support ='1.0.0'
+    ext.room ='2.5.2'
+    ext.navigation ='2.6.0'
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io"}
+    }
+
+    dependencies {
+
+        classpath 'com.android.tools.build:gradle:7.4.2'
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.21"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.4.0'  // Google Services plugin
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+//        classpath 'com.google.firebase:firebase-appdistribution-gradle:4.0.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io"}
+        maven { url "https://plugins.gradle.org/m2/"}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.app.instagramlikeimagevideopicker.app-mergeDebugResources-54:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/hb/.gradle/caches/transforms-3/5222442446d226fd7f7c4a01ded224b1/transformed/appcompat-1.5.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

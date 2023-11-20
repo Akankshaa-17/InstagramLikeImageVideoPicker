@@ -1,0 +1,74 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-parcelize'
+
+android {
+    compileSdkVersion versionTargetSdk
+
+    defaultConfig {
+        minSdkVersion versionMinSdk
+        targetSdkVersion versionTargetSdk
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    namespace 'com.app.instagramlikeimagevideopicker'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "com.google.android.material:material:$material"
+
+    implementation('com.alibaba.android:ultraviewpager:1.0.7.7@aar') {
+        transitive = true
+    }
+
+    implementation 'com.github.yalantis:ucrop:2.2.8'
+
+    implementation 'info.androidhive:imagefilters:1.0.7'
+    implementation "androidx.navigation:navigation-runtime-ktx:$navigation"
+    implementation "com.github.bumptech.glide:glide:$glide"
+    kapt "com.github.bumptech.glide:compiler:$glide"
+//    implementation "androidx.core:core-ktx:1.9.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    // CameraX dependencies (first release for video is: "1.1.0-alpha10")
+    // The following line is optional, as the core library is included indirectly by camera-camera2
+    implementation "androidx.camera:camera-core:1.2.2"
+    implementation "androidx.camera:camera-camera2:1.2.2"
+    // If you want to additionally use the CameraX Lifecycle library
+    implementation "androidx.camera:camera-lifecycle:1.2.2"
+    // If you want to additionally use the CameraX View class
+    implementation "androidx.camera:camera-view:1.2.2"
+    // If you want to additionally use the CameraX Extensions library
+    implementation "androidx.camera:camera-extensions:1.2.2"
+    implementation 'androidx.camera:camera-video:1.2.2'
+    implementation 'com.github.CameraKit:camerakit-android:v1.0.0-beta3.11'
+
+    implementation "androidx.legacy:legacy-support-v4:$legacy_support"
+    implementation "androidx.activity:activity-ktx:$activity"
+
+    implementation 'com.github.CameraKit:jpegkit-android:v0.2.2'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinx_coroutines"
+
+}
+/*repositories {
+    mavenCentral()
+}*/

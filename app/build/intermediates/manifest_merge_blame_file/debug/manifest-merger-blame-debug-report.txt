@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.instagramlikeimagevideopicker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
+11-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
+12    <uses-permission
+12-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-10:35
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-64
+14        android:required="true" />
+14-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-32
+15    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+15-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-76
+15-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-73
+16    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+16-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-75
+16-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-72
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-71
+17-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-68
+18
+19    <queries>
+19-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:22:5-26:15
+20        <intent>
+20-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:23:9-25:18
+21            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+21-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:24:13-86
+21-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:24:21-83
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:9:5-81
+25-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:9:22-78
+26
+27    <uses-feature
+27-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:11:5-13:36
+28        android:name="android.hardware.camera"
+28-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:12:9-47
+29        android:required="false" />
+29-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:13:9-33
+30    <uses-feature
+30-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:14:5-16:36
+31        android:name="android.hardware.camera.front"
+31-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:15:9-53
+32        android:required="false" />
+32-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:16:9-33
+33    <uses-feature
+33-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:17:5-19:36
+34        android:name="android.hardware.camera.autofocus"
+34-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:18:9-57
+35        android:required="false" />
+35-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:19:9-33
+36    <uses-feature
+36-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:20:5-22:36
+37        android:name="android.hardware.microphone"
+37-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:21:9-51
+38        android:required="false" />
+38-->[com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:22:9-33
+39
+40    <application
+40-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:6:5-31:19
+41        android:allowBackup="true"
+41-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:7:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.8.0] /Users/hb/.gradle/caches/transforms-3/c541140d56dc18ced45ffdee3a5c3523/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="false"
+45        android:hardwareAccelerated="true"
+45-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-43
+46        android:icon="@mipmap/ic_launcher"
+46-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:8:9-43
+47        android:label="@string/app_name"
+47-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:9:9-41
+48        android:largeHeap="true"
+48-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-33
+49        android:requestLegacyExternalStorage="true"
+49-->[:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-52
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:10:9-54
+51        android:supportsRtl="false"
+51-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:11:9-36
+52        android:testOnly="true"
+53        android:theme="@style/AppTheme" >
+53-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:13:9-40
+54        <activity android:name="com.app.instagramlikeimagevideopicker.gallery.SelectActivity" />
+54-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:14:9-97
+54-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:14:19-94
+55        <activity android:name="com.app.instagramlikeimagevideopicker.filter.FilterActivity" />
+55-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:15:9-96
+55-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:15:19-93
+56        <activity android:name="com.app.instagramlikeimagevideopicker.gallery.MultiSelectActivity" />
+56-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:9-101
+56-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:19-99
+57        <activity
+57-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:17:9-20:71
+58            android:name="com.yalantis.ucrop.UCropActivity"
+58-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:18:13-60
+59            android:screenOrientation="portrait"
+59-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:19:13-49
+60            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+60-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:20:13-69
+61        <activity
+61-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:22:9-30:20
+62            android:name="com.app.instagramlikeimagevideopicker.MainActivity"
+62-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:24:13-41
+63            android:exported="true" >
+63-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:23:13-36
+64            <intent-filter>
+64-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:25:13-29:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:26:17-69
+65-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:26:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:28:17-77
+67-->/Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:28:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <uses-library
+71-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:29:9-31:40
+72            android:name="androidx.camera.extensions.impl"
+72-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:30:13-59
+73            android:required="false" />
+73-->[androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:31:13-37
+74
+75        <service
+75-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:24:9-33:19
+76            android:name="androidx.camera.core.impl.MetadataHolderService"
+76-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:25:13-75
+77            android:enabled="false"
+77-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:26:13-36
+78            android:exported="false" >
+78-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:30:13-32:89
+80                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+80-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:31:17-103
+81                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+81-->[androidx.camera:camera-camera2:1.2.2] /Users/hb/.gradle/caches/transforms-3/61636bb299fc854bd67946c1ad580a43/transformed/jetified-camera-camera2-1.2.2/AndroidManifest.xml:32:17-86
+82        </service>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+86            android:authorities="com.app.instagramlikeimagevideopicker.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] /Users/hb/.gradle/caches/transforms-3/1689e9a52b7a06ce19dabb5ebf189849/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hb/.gradle/caches/transforms-3/e71529a13d84e95b524c2d61534388cb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hb/.gradle/caches/transforms-3/e71529a13d84e95b524c2d61534388cb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hb/.gradle/caches/transforms-3/e71529a13d84e95b524c2d61534388cb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hb/.gradle/caches/transforms-3/2c283e2b201242afa1d2e22d6d1ce78c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

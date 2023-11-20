@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">InstagramPicker</string>
+    <string name="filter_normal">Normal</string>
+    <string name="filters">FILTERS</string>
+    <string name="tab_filters">FILTERS</string>
+    <string name="Next">Next</string>
+
+    <string name="camera_permission_title">Camera Permission</string>
+    <string name="camera_permission_message">This permission is needed to Take Photos</string>
+    <string name="camera_permission_positive">allow</string>
+    <string name="camera_permission_negative">deny</string>
+    <string name="camera_permission_deny">Enable Permission in Settings</string>
+
+    <string name="storage_permission_title">External Storage Permission</string>
+    <string name="storage_permission_message">This permission is needed to read photos in your phone</string>
+    <string name="storage_permission_positive">allow</string>
+    <string name="storage_permission_negative">deny</string>
+    <string name="storage_permission_deny">Enable Permission in Settings</string>
+
+    <string name="instagrampicker_gallery">Gallery</string>
+
+    <string name="instagrampicker_camera">Camera</string>
+    <string name="instagrampicker_camera_title">Capture</string>
+
+    <string name="instagrampicker_crop_title">Crop</string>
+
+
+    <string name="instagrampicker_filter_title">Filters</string>
+
+
+    <color name="filter_label_normal">#8A8889</color>
+    <color name="filter_label_selected">#221F20</color>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="albums">Albums</string>
+    <string name="cancel">Cancel</string>
+    <string name="crop">Crop</string>
+    <string name="finish">Finish</string>
+    <string name="ucrop_label_original">Original</string>
+
+
+    <string name="audio">Audio</string>
+    <string name="camera">Camera</string>
+    <string name="capture">Capture</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="Resume">Resume</string>
+    <string name="Start">Start</string>
+    <string name="Finalize">Finalize</string>
+    <string name="Idle">Idle</string>
+    <string name="back_button_alt">Back</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="video_viewer_tips">Tips for the page:\n\t- tap anywhere to replay\n\t- tap system back button to go back</string>
+
+
+    <string-array name="tab_array_1">
+        <item>Photo</item>
+        <item>Video</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cl_main"
+    android:padding="0.75dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/row_gallery_pic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#33000000"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/row_gallery_select"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:buttonTint="@color/white"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg_rounded_corner"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/black_overlay_60"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_duration"
+            android:text="12333"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_play_circle"
+            android:paddingLeft="5dp"
+            android:drawablePadding="2dp"
+            android:paddingRight="5dp"
+            app:drawableTint="@color/white"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

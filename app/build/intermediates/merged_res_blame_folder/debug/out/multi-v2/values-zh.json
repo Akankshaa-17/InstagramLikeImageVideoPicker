@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.app.instagramlikeimagevideopicker.app-mergeDebugResources-54:/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/hb/.gradle/caches/transforms-3/0e3ffb2640f8a35cf59a78f2580a2e9b/transformed/jetified-ucrop-2.2.8/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,97,151,205,252,296",
+                        "endColumns": "41,53,53,46,43,42",
+                        "endOffsets": "92,146,200,247,291,334"
+                    }
+                }
+            ]
+        }
+    ]
+}
