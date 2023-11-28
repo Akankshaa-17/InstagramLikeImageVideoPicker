@@ -37,7 +37,7 @@ Step 3. Add these activities in your manifest file. in the application tag:
 ```
 
 # How to use it
-For using this library just use the code below it is simple and straight forward.
+For using this library just use the code below it is simple and straight forward.<br>
 For single image/video selection use this:
 ```
             InstagramPicker
