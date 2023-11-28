@@ -4,6 +4,8 @@ To pick and capture the image and video both.
 InstagramLikeImageVideoPicker is an android library that lets you choose single/multi pictures from gallery or camera.
 
 
+[![](https://jitpack.io/v/Akankshaa-17/InstagramLikeImageVideoPicker.svg)](https://jitpack.io/#Akankshaa-17/InstagramLikeImageVideoPicker)
+
 
 # Gradle Dependency
 Step 1. Add the JitPack repository to your build file <br>
@@ -36,6 +38,22 @@ Step 3. Add these activities in your manifest file. in the application tag:
 
 # How to use it
 For using this library just use the code below it is simple and straight forward.
+For single image/video selection use this:
+```
+            InstagramPicker
+                .Builder(this)
+                .setType(MediaTypeEnum.IMAGE_GALLERY_AND_CAPTURE)
+                .setCropXRatio(1)
+                .setCropYRatio(1)
+                .setDefault16And9Ratio(false)
+                .setSingleListener(object : SingleListener {
+                override fun selectedPic(address: String) {
+                    ...
+                }
+            }).build().show()
+```
+
+For multiple image/video selection use this:
 ```
             InstagramPicker
                 .Builder(this)
@@ -47,13 +65,9 @@ For using this library just use the code below it is simple and straight forward
                 .setMultiSelect(true)
                 .setMultiSelectListener(object : MultiListener{
                     override fun selectedPics(addresses: List<String>) {
-                        b.mainPreview.setImageURI(Uri.parse(addresses[1]))
+                        ...
                     }
                 })
-                .setSingleListener(object : SingleListener {
-                override fun selectedPic(address: String) {
-                    b.mainPreview.setImageURI(Uri.parse(address))
-                }
             }).build().show()
 ```
 
@@ -66,8 +80,4 @@ number of pics = an integer variable that determines the number of pictures that
 # Developed By
 
 * Akanksha Gaikwad <akanksha.gaikwad@hiddenbrains.in>
-
-
-[![](https://jitpack.io/v/Akankshaa-17/InstagramLikeImageVideoPicker.svg)](https://jitpack.io/#Akankshaa-17/InstagramLikeImageVideoPicker)
-
 
