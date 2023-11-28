@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'maven-publish'
 }
+group = 'com.github.Akankshaa-17'
 
 afterEvaluate{
     publishing {
@@ -72,7 +73,7 @@ dependencies {
 }
 
 tasks.register('generateRepo', Zip) {
-    def publishTask = tasks.named('publishReleasePublicationToMyrepoRepository')
+    def publishTask = tasks.named('instagramlikeimagevideopicker')
     from publishTask.map { it.getRepository().getUrl() }
     into 'instagramlikeimagevideopicker'
     archiveFileName.set('instagramlikeimagevideopicker.zip')

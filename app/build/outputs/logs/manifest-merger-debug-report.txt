@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-MERGED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.databinding:databinding-adapters:7.4.2] /Users/hb/.gradle/caches/transforms-3/e16d93a7f6af6a9cedc81adbfe85a6d6/transformed/databinding-adapters-7.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:7.4.2] /Users/hb/.gradle/caches/transforms-3/7b53463169a54d6bde50fe028f5ec947/transformed/jetified-databinding-ktx-7.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:7.4.2] /Users/hb/.gradle/caches/transforms-3/5e4c493be3746584add34c9c1aea6433/transformed/databinding-runtime-7.4.2/AndroidManifest.xml:2:1-7:12
@@ -79,29 +79,29 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/hb/.gradle/caches/tra
 MERGED from [com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:2:1-24:12
 MERGED from [com.github.CameraKit:jpegkit-android:v0.2.2] /Users/hb/.gradle/caches/transforms-3/9b61c4e696cb2408aa435ab0344576be/transformed/jetified-jpegkit-android-v0.2.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hb/.gradle/caches/transforms-3/33d56b73cc62db90ebdfe93b67d07f51/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:4:5-52
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:4:5-52
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:6:5-31:19
-MERGED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-23:19
-MERGED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-23:19
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:6:5-31:19
+MERGED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-23:19
+MERGED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/hb/.gradle/caches/transforms-3/779edd8175c51520c69c85cb463305ec/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/hb/.gradle/caches/transforms-3/779edd8175c51520c69c85cb463305ec/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hb/.gradle/caches/transforms-3/ace5aadf99dd99b3a9bf7a16aea808c1/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -131,70 +131,70 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/hb/.
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hb/.gradle/caches/transforms-3/6c1bf584b55a3bd936545cf64a3b94c6/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/hb/.gradle/caches/transforms-3/6c1bf584b55a3bd936545cf64a3b94c6/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-52
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /Users/hb/.gradle/caches/transforms-3/c541140d56dc18ced45ffdee3a5c3523/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:11:9-36
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:11:9-36
 		REJECTED from [info.androidhive:imagefilters:1.0.7] /Users/hb/.gradle/caches/transforms-3/08e7c3b93abfec4c9e2adea5194f6287/transformed/jetified-imagefilters-1.0.7/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:9:9-41
 	android:hardwareAccelerated
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-43
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-43
 	android:roundIcon
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:10:9-54
 	android:largeHeap
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33
 	android:icon
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:13:9-40
 	tools:replace
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:12:9-44
 activity#com.app.instagramlikeimagevideopicker.gallery.SelectActivity
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:14:9-15:40
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:14:9-15:40
 	android:exported
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:15:13-37
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:14:19-94
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:14:19-94
 activity#com.app.instagramlikeimagevideopicker.gallery.MultiSelectActivity
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:9-126
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:9-126
 	android:exported
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:100-124
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:100-124
 	android:name
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:19-99
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:16:19-99
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:17:9-20:71
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:17:9-20:71
 	android:screenOrientation
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:19:13-49
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:19:13-49
 	android:theme
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:20:13-69
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:20:13-69
 	android:name
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:18:13-60
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:18:13-60
 activity#com.app.instagramlikeimagevideopicker.MainActivity
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:22:9-30:20
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:24:13-41
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:25:13-29:29
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml:28:27-74
 uses-sdk
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-MERGED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+MERGED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-adapters:7.4.2] /Users/hb/.gradle/caches/transforms-3/e16d93a7f6af6a9cedc81adbfe85a6d6/transformed/databinding-adapters-7.4.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-adapters:7.4.2] /Users/hb/.gradle/caches/transforms-3/e16d93a7f6af6a9cedc81adbfe85a6d6/transformed/databinding-adapters-7.4.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-ktx:7.4.2] /Users/hb/.gradle/caches/transforms-3/7b53463169a54d6bde50fe028f5ec947/transformed/jetified-databinding-ktx-7.4.2/AndroidManifest.xml:5:5-44
@@ -343,50 +343,50 @@ MERGED from [com.github.CameraKit:jpegkit-android:v0.2.2] /Users/hb/.gradle/cach
 MERGED from [com.github.CameraKit:jpegkit-android:v0.2.2] /Users/hb/.gradle/caches/transforms-3/9b61c4e696cb2408aa435ab0344576be/transformed/jetified-jpegkit-android-v0.2.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hb/.gradle/caches/transforms-3/33d56b73cc62db90ebdfe93b67d07f51/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hb/.gradle/caches/transforms-3/33d56b73cc62db90ebdfe93b67d07f51/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-10:42
+ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-10:42
 MERGED from [com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:7:5-65
 MERGED from [com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:7:5-65
 	android:requiredFeature
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-39
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-39
 	android:required
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-32
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-32
 	android:name
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-49
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-49
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:35
+ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:35
 	android:required
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-32
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-32
 	android:name
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-64
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-64
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-76
+ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-73
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-73
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-75
+ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-75
 	android:name
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-72
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-72
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-71
+ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-71
 MERGED from [com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:8:5-71
 MERGED from [com.github.CameraKit:camerakit-android:v1.0.0-beta3.11] /Users/hb/.gradle/caches/transforms-3/c567f433987477feadfff81a10f55e7c/transformed/jetified-camerakit-android-v1.0.0-beta3.11/AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:22-68
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:22-68
 uses-permission#android.permission.READ_MEDIA_VISUAL_USER_SELECTED
-ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-90
+ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-90
 	android:name
-		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/nstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:22-87
+		ADDED from [:picker] /Users/hb/Documents/AndroidProjects/InstagramLikeImageVideoPicker/picker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:22-87
 queries
 ADDED from [androidx.camera:camera-extensions:1.2.2] /Users/hb/.gradle/caches/transforms-3/0cbdbc105d06daf30ac44f97536336c5/transformed/jetified-camera-extensions-1.2.2/AndroidManifest.xml:22:5-26:15
 intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
