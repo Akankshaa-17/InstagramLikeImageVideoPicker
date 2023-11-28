@@ -6,15 +6,19 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="33" />
+        android:targetSdkVersion="34" />
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true"
+        android:requiredFeature="true" />
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:required="true" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
 
     <queries>
         <intent>
@@ -51,9 +55,12 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.app.instagramlikeimagevideopicker.gallery.SelectActivity" />
-        <activity android:name="com.app.instagramlikeimagevideopicker.filter.FilterActivity" />
-        <activity android:name="com.app.instagramlikeimagevideopicker.gallery.MultiSelectActivity" />
+        <activity
+            android:name="com.app.instagramlikeimagevideopicker.gallery.SelectActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.instagramlikeimagevideopicker.gallery.MultiSelectActivity"
+            android:exported="false" />
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"
             android:screenOrientation="portrait"

@@ -19,13 +19,13 @@ import java.util.*
  * Use the [AllAlbumBottomSheetDialogFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class AllAlbumBottomSheetDialogFragment : BottomSheetDialogFragment(), itemClickListener {
+class AllAlbumBottomSheetDialogFragment : BottomSheetDialogFragment(), ItemClickListener {
 
     private var binding: FragmentAllAlbumDialogBinding? = null
 
     companion object {
-        private var itemClickListener: itemClickListener? = null
-        fun newInstance(selectedIdList: ArrayList<ImageFolder>, itemClickListener1: itemClickListener) = AllAlbumBottomSheetDialogFragment().apply {
+        private var itemClickListener: ItemClickListener? = null
+        fun newInstance(selectedIdList: ArrayList<ImageFolder>, itemClickListener1: ItemClickListener) = AllAlbumBottomSheetDialogFragment().apply {
             this.arguments = Bundle().apply {
                 this.putParcelableArrayList("album_list", selectedIdList)
                 itemClickListener = itemClickListener1

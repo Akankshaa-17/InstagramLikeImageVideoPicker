@@ -6,6 +6,7 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.graphics.Bitmap
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -46,7 +47,11 @@ class MultiSelectActivity : AppCompatActivity(), UCropFragmentCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_multi_select)
         setOnBackPress()
-        registerReceiver(br, IntentFilter(Statics.INTENT_FILTER_ACTION_NAME))
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            registerReceiver(br, IntentFilter(Statics.INTENT_FILTER_ACTION_NAME),RECEIVER_EXPORTED)
+        }else {
+            registerReceiver(br, IntentFilter(Statics.INTENT_FILTER_ACTION_NAME))
+        }
         addresses.forEach {
             val image = ImageCropModel()
             image.address = it
@@ -105,7 +110,7 @@ class MultiSelectActivity : AppCompatActivity(), UCropFragmentCallback {
         when (result.mResultCode) {
             RESULT_OK -> {
                 val resultUri = UCrop.getOutput(result.mResultData)
-                val file = File(resultUri!!.path)
+                val file = File(resultUri?.path.toString())
 
                 allImageList[selectedPosition].address = file.absolutePath
                 allImageList[selectedPosition].isCropped = true

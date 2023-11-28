@@ -233,7 +233,7 @@ class GalleryFragment : Fragment() {
     }
 
     private fun showAllAlbum() {
-        val bottomSheetDialog = newInstance(albumList, object : itemClickListener {
+        val bottomSheetDialog = newInstance(albumList, object : ItemClickListener {
             override fun onPicClicked(pictureFolderPath: String?, folderName: String?) {
                 data.clear()
                 adapter!!.notifyDataSetChanged()

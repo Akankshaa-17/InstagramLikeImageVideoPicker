@@ -1,7 +1,6 @@
 package com.app.instagramlikeimagevideopicker.classes
 
 import androidx.appcompat.app.AppCompatActivity
-import com.app.instagramlikeimagevideopicker.classes.BackgroundActivity
 
 class BackgroundActivity {
     var activity: AppCompatActivity? = null

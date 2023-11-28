@@ -39,11 +39,16 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
-import androidx.camera.video.*
+import androidx.camera.video.FallbackStrategy
+import androidx.camera.video.MediaStoreOutputOptions
+import androidx.camera.video.Quality
+import androidx.camera.video.QualitySelector
+import androidx.camera.video.Recorder
+import androidx.camera.video.Recording
+import androidx.camera.video.VideoRecordEvent
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.util.Consumer
@@ -53,22 +58,25 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.whenCreated
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.android.camerax.video.extensions.getNameString
 import com.app.instagramlikeimagevideopicker.InstagramPicker
 import com.app.instagramlikeimagevideopicker.R
 import com.app.instagramlikeimagevideopicker.classes.BackgroundActivity
 import com.app.instagramlikeimagevideopicker.classes.Statics
 import com.app.instagramlikeimagevideopicker.databinding.FragmentCaptureBinding
 import com.app.instagramlikeimagevideopicker.extension.clickWithDebounce
-import kotlinx.coroutines.*
+import com.app.instagramlikeimagevideopicker.extension.getNameString
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Locale
 
 enum class FlashMode {
     FLASH_ON, FLASH_OFF, FLASH_AUTO
 }
 
-@SuppressLint("SuspiciousIndentation")
 class CaptureFragment : Fragment() {
 
     // UI with ViewBinding

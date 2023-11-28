@@ -10,6 +10,8 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.provider.Settings
 import android.util.Log
 import android.view.MenuItem
@@ -20,7 +22,6 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.app.instagramlikeimagevideopicker.InstagramPicker
 import com.app.instagramlikeimagevideopicker.MainFragment
 import com.app.instagramlikeimagevideopicker.MediaTypeEnum
@@ -29,6 +30,9 @@ import com.app.instagramlikeimagevideopicker.capture.CaptureFragment
 import com.app.instagramlikeimagevideopicker.classes.BackgroundActivity
 import com.app.instagramlikeimagevideopicker.classes.InstaPickerSharedPreference
 import com.app.instagramlikeimagevideopicker.classes.Statics
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
+
 
 class SelectActivity : AppCompatActivity() {
     private val CAMERA_PERMISSION_REQ = 236
@@ -39,7 +43,11 @@ class SelectActivity : AppCompatActivity() {
         setContentView(R.layout.activity_select)
         BackgroundActivity.instance?.setActivity(this)
         setOnBackPress()
-        registerReceiver(br, IntentFilter(Statics.INTENT_FILTER_ACTION_NAME))
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            registerReceiver(br, IntentFilter(Statics.INTENT_FILTER_ACTION_NAME), RECEIVER_EXPORTED)
+        }else{
+            registerReceiver(br, IntentFilter(Statics.INTENT_FILTER_ACTION_NAME))
+        }
         val bnv = findViewById<BottomNavigationView>(R.id.select_bnv)
         when (InstagramPicker.getMediaTypeEnum) {
             MediaTypeEnum.IMAGE_CAPTURE, MediaTypeEnum.VIDEO_CAPTURE, MediaTypeEnum.IMAGE_VIDEO_CAPTURE -> {
@@ -97,14 +105,20 @@ class SelectActivity : AppCompatActivity() {
 
     private fun checkPermission(): Int {
         return ContextCompat.checkSelfPermission(this@SelectActivity,
-                Manifest.permission.CAMERA) + ContextCompat.checkSelfPermission(this@SelectActivity,
-                Manifest.permission.RECORD_AUDIO)
-      //  return ActivityCompat.checkSelfPermission(this@SelectActivity, Manifest.permission.CAMERA)
+            Manifest.permission.CAMERA) + ContextCompat.checkSelfPermission(this@SelectActivity,
+            Manifest.permission.RECORD_AUDIO)
+        //  return ActivityCompat.checkSelfPermission(this@SelectActivity, Manifest.permission.CAMERA)
     }
 
     private fun checkStoragePermission(): Int {
-        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                ContextCompat.checkSelfPermission(this@SelectActivity,
+        return if (Build.VERSION.SDK_INT == Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            ContextCompat.checkSelfPermission(this@SelectActivity,
+                Manifest.permission.READ_MEDIA_IMAGES) + ContextCompat.checkSelfPermission(this@SelectActivity,
+                Manifest.permission.READ_MEDIA_VIDEO) + ContextCompat.checkSelfPermission(this@SelectActivity,
+                Manifest.permission.RECORD_AUDIO) + ContextCompat.checkSelfPermission(this@SelectActivity,
+                Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED)
+        }else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            ContextCompat.checkSelfPermission(this@SelectActivity,
                 Manifest.permission.READ_MEDIA_IMAGES) + ContextCompat.checkSelfPermission(this@SelectActivity,
                 Manifest.permission.READ_MEDIA_VIDEO) + ContextCompat.checkSelfPermission(this@SelectActivity,
                 Manifest.permission.RECORD_AUDIO)
@@ -122,7 +136,11 @@ class SelectActivity : AppCompatActivity() {
     }
 
     private fun requestStoragePermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            ActivityCompat.requestPermissions(this@SelectActivity,
+                arrayOf(Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO, Manifest.permission.RECORD_AUDIO, Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED),
+                STORAGE_PERMISSION_REQ)
+        }else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             ActivityCompat.requestPermissions(this@SelectActivity,
                 arrayOf(Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO, Manifest.permission.RECORD_AUDIO),
                 STORAGE_PERMISSION_REQ)
@@ -183,26 +201,30 @@ class SelectActivity : AppCompatActivity() {
 
     private fun requestStorage() {
         if (checkStoragePermission() != PackageManager.PERMISSION_GRANTED) {
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this@SelectActivity,
-                    Manifest.permission.READ_EXTERNAL_STORAGE) || ActivityCompat.shouldShowRequestPermissionRationale(this@SelectActivity,
-                    Manifest.permission.READ_MEDIA_IMAGES) || ActivityCompat.shouldShowRequestPermissionRationale(this@SelectActivity,
-                    Manifest.permission.READ_MEDIA_VIDEO) || /*ActivityCompat.shouldShowRequestPermissionRationale(
-                    this@SelectActivity,
+            if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.TIRAMISU) {
+                if (ActivityCompat.shouldShowRequestPermissionRationale(this@SelectActivity,
+                        Manifest.permission.READ_EXTERNAL_STORAGE) || ActivityCompat.shouldShowRequestPermissionRationale(
+                        this@SelectActivity, Manifest.permission.READ_MEDIA_IMAGES) || ActivityCompat.shouldShowRequestPermissionRationale(
+                        this@SelectActivity, Manifest.permission.READ_MEDIA_VIDEO) || /*ActivityCompat.shouldShowRequestPermissionRationale(
+                    this@SelectActivity,Manifest.permission.READ_MEDIA_VISUAL_USER_SELECTED
                 ) ||*/ ActivityCompat.shouldShowRequestPermissionRationale(this@SelectActivity, Manifest.permission.RECORD_AUDIO)) {
-                showStorageExplanation()
-            } else if (!InstaPickerSharedPreference.getInstance(this@SelectActivity).storagePermission) {
+                    showStorageExplanation()
+                } else if (!InstaPickerSharedPreference.getInstance(this@SelectActivity).storagePermission) {
+                    requestStoragePermission()
+                    InstaPickerSharedPreference.getInstance(this@SelectActivity).setStoragePermission()
+                } else {
+                    showToast(getString(R.string.storage_permission_deny))
+                    val intent = Intent()
+                    intent.action = Settings.ACTION_APPLICATION_DETAILS_SETTINGS
+                    val uri = Uri.fromParts("package", packageName, null)
+                    intent.data = uri
+                    startActivity(intent)
+                }
+            } else  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
                 requestStoragePermission()
-                InstaPickerSharedPreference.getInstance(this@SelectActivity).setStoragePermission()
-            } else {
-                showToast(getString(R.string.storage_permission_deny))
-                val intent = Intent()
-                intent.action = Settings.ACTION_APPLICATION_DETAILS_SETTINGS
-                val uri = Uri.fromParts("package", packageName, null)
-                intent.data = uri
-                startActivity(intent)
+            }else{
+                openGallery()
             }
-        } else {
-            openGallery()
         }
     }
 
@@ -212,10 +234,14 @@ class SelectActivity : AppCompatActivity() {
                 openCamera()
             }
         } else if (requestCode == STORAGE_PERMISSION_REQ) {
-            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
                 openGallery()
-            } else {
-                onBackPressed()
+            }else {
+                if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    openGallery()
+                } else {
+                    onBackPressed()
+                }
             }
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
@@ -238,9 +264,11 @@ class SelectActivity : AppCompatActivity() {
                     InstagramPicker.mListener?.selectedPics(InstagramPicker.addresses)
                 }
             } else {
-                if (InstagramPicker.sListener != null) {
-                    InstagramPicker.sListener?.selectedPic(InstagramPicker.addresses[0])
-                }
+                Handler(Looper.getMainLooper()).postDelayed({
+                    if (InstagramPicker.sListener != null) {
+                        InstagramPicker.sListener?.selectedPic(InstagramPicker.addresses[0])
+                    }
+                }, 1000)
             }
             unregisterReceiver(this)
         }

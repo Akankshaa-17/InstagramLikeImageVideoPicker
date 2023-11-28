@@ -3379,7 +3379,6 @@ id continuousVelocity
 id controls_shadow
 id controls_wrapper
 id coordinator
-id coordinator_layout
 id cos
 id counterclockwise
 id cradle
@@ -3443,7 +3442,6 @@ id fill_horizontal
 id fill_vertical
 id filled
 id filter_name
-id filter_toolbar
 id fitCenter
 id fitEnd
 id fitStart
@@ -3489,7 +3487,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id image_preview
 id image_view_crop
 id image_view_logo
 id image_view_state_aspect_ratio
@@ -3739,7 +3736,6 @@ id submit_area
 id supportScrollUp
 id tabLayout
 id tabMode
-id tabs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3819,7 +3815,6 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
-id viewpager
 id visible
 id visible_removing_fragment_view_tag
 id west
@@ -3950,12 +3945,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_camera
-layout activity_filter
 layout activity_main
 layout activity_multi_select
 layout activity_select
-layout activity_select1
-layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

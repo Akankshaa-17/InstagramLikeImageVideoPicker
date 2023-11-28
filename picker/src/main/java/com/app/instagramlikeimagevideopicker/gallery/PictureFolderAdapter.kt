@@ -25,7 +25,7 @@ class PictureFolderAdapter
  * @param listen      interFace for communication between adapter and fragment or activity
  */(
     private val folders: ArrayList<ImageFolder>, private val folderContx: Context,
-    private val listenToClick: itemClickListener,
+    private val listenToClick: ItemClickListener,
 ) : RecyclerView.Adapter<FolderHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FolderHolder {
         val inflater = LayoutInflater.from(parent.context)

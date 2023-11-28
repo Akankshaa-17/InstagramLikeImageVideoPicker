@@ -259,11 +259,6 @@ class CameraFragment : Fragment(R.layout.fragment_camera) {
 
             requireActivity().sendBroadcast(Intent(Statics.INTENT_FILTER_ACTION_NAME))
             BackgroundActivity.instance?.activity?.finish()
-
-            /*val intent = Intent(requireContext(), FilterActivity::class.java)
-            intent.putExtra("uri", resultUri)
-            FilterActivity.picAddress = resultUri
-            startActivity(intent)*/
         }
     }
 
