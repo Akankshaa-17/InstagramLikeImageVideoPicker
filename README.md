@@ -18,6 +18,25 @@ Add it in your root build.gradle (project level) at the end of repositories:
 		}
 	}
 ```
+
+Add it in your settings.gradle if your pluginManagement and dependencyResolutionManagement is defined in settings.gradle file:
+```
+    pluginManagement {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+    
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+            repositories {
+                ...
+                maven { url 'https://jitpack.io' }
+        }
+    }
+```
+
 Step 2. Add the dependency<br>
 Add it in your dependencies section of build.gradle (app level):
 ```
@@ -38,6 +57,7 @@ Step 3. Add these activities in your manifest file. in the application tag:
 
 # How to use it
 For using this library just use the code below it is simple and straight forward.<br>
+
 For single image/video selection use this:
 ```
             InstagramPicker
