@@ -6,6 +6,25 @@ plugins {
 }
 group = 'com.github.Akankshaa-17'
 
+afterEvaluate{
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'com.app.instagramlikeimagevideopicker'
+                artifactId = 'instagramlikeimagevideopicker'
+                version = '1.0'
+            }
+        }
+        repositories {
+            maven {
+                name = 'instagramlikeimagevideopicker'
+                url = "${project.buildDir}/instagramlikeimagevideopicker"
+            }
+        }
+    }
+}
+
 android {
     publishing {
         singleVariant('release') {
