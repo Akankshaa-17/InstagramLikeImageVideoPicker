@@ -4,7 +4,7 @@
             "outputFile": "com.app.instagramlikeimagevideopicker.app-mergeDebugResources-54:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/hb/.gradle/caches/transforms-3/0e3ffb2640f8a35cf59a78f2580a2e9b/transformed/jetified-ucrop-2.2.8/res/values-zh/values-zh.xml",
+                    "source": "/Users/hb/.gradle/caches/transforms-3/eb843c52d1423aa6c09a9507f02e43d6/transformed/jetified-ucrop-2.2.8/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

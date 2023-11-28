@@ -6,25 +6,6 @@ plugins {
 }
 group = 'com.github.Akankshaa-17'
 
-afterEvaluate{
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.findByName('release')
-                groupId = 'com.app.instagramlikeimagevideopicker'
-                artifactId = 'instagramlikeimagevideopicker'
-                version = '1.0'
-            }
-        }
-        repositories {
-            maven {
-                name = 'instagramlikeimagevideopicker'
-                url = "${project.buildDir}/instagramlikeimagevideopicker"
-            }
-        }
-    }
-}
-
 android {
     publishing {
         singleVariant('release') {
@@ -72,9 +53,3 @@ dependencies {
     implementation project(path: ':picker')
 }
 
-tasks.register('generateRepo', Zip) {
-    def publishTask = tasks.named('instagramlikeimagevideopicker')
-    from publishTask.map { it.getRepository().getUrl() }
-    into 'instagramlikeimagevideopicker'
-    archiveFileName.set('instagramlikeimagevideopicker.zip')
-}

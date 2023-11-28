@@ -4,7 +4,7 @@
             "outputFile": "com.app.instagramlikeimagevideopicker.app-mergeDebugResources-54:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/hb/.gradle/caches/transforms-3/5222442446d226fd7f7c4a01ded224b1/transformed/appcompat-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/hb/.gradle/caches/transforms-3/e4ab36d839459ac688ffda7462e5802d/transformed/appcompat-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hb/.gradle/caches/transforms-3/779edd8175c51520c69c85cb463305ec/transformed/material-1.9.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/hb/.gradle/caches/transforms-3/aa1a8fc63fbf639b4818c81c82087b8e/transformed/material-1.9.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
