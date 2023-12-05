@@ -41,7 +41,7 @@ Step 2. Add the dependency<br>
 Add it in your dependencies section of build.gradle (app level):
 ```
 	dependencies {
-	        implementation 'com.github.Akankshaa-17:InstagramLikeImageVideoPicker:1.5'
+	        implementation 'com.github.Akankshaa-17:InstagramLikeImageVideoPicker:1.6'
 	}
 ```
 
