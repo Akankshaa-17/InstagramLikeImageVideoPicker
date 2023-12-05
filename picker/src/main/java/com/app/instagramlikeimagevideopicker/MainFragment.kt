@@ -5,12 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.app.instagramlikeimagevideopicker.databinding.FragmentMainBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import com.app.instagramlikeimagevideopicker.databinding.FragmentMainBinding
 
 class MainFragment : Fragment(R.layout.fragment_main) {
-    private var binding: FragmentMainBinding? = null
+    var binding: FragmentMainBinding? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
@@ -18,6 +18,10 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         setTabLayout()
 
         return binding?.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 
     private fun setTabLayout() {

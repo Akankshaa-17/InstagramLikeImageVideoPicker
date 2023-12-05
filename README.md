@@ -87,7 +87,6 @@ For multiple image/video selection use this:
                     override fun selectedPics(addresses: List<String>) {
                         ...
                     }
-                })
             }).build().show()
 ```
 

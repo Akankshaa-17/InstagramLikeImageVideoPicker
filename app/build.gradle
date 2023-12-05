@@ -13,7 +13,7 @@ afterEvaluate{
                 from components.findByName('release')
                 groupId = 'com.app.instagramlikeimagevideopicker'
                 artifactId = 'instagramlikeimagevideopicker'
-                version = '1.5'
+                version = '1.6'
             }
         }
         repositories {
@@ -41,7 +41,7 @@ android {
         minSdkVersion 24
         targetSdkVersion 34
         versionCode 1
-        versionName "1.5"
+        versionName "1.6"
         aarMetadata {
             minCompileSdk = 24
         }
