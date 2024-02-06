@@ -1,7 +1,7 @@
-# MediaPicker (Reference Of Instagram)
+# MediaPickerInstagram (Reference Of Instagram)
 Pick and capture the image, video or both.
 
-MediaPicker is an android library that lets you choose single/multi pictures from gallery or camera.
+MediaPickerInstagram is an android library that lets you choose single/multi pictures from gallery or camera.
 
 
 [![](https://jitpack.io/v/Akankshaa-17/InstagramLikeImageVideoPicker.svg)](https://jitpack.io/#Akankshaa-17/InstagramLikeImageVideoPicker)
