@@ -1,4 +1,4 @@
-# MediaPickerInstagram (Reference Of Instagram)
+### MediaPickerInstagram (Reference Of Instagram)
 Pick and capture the image, video or both.
 
 MediaPickerInstagram is an android library that lets you choose single/multi pictures from gallery or camera.
@@ -7,8 +7,8 @@ MediaPickerInstagram is an android library that lets you choose single/multi pic
 [![](https://jitpack.io/v/Akankshaa-17/InstagramLikeImageVideoPicker.svg)](https://jitpack.io/#Akankshaa-17/InstagramLikeImageVideoPicker)
 
 
-# Gradle Dependency
-Step 1. Add the JitPack repository to your build file <br>
+### Gradle Dependency
+**Step 1.** Add the JitPack repository to your build file <br>
 Add it in your root build.gradle (project level) at the end of repositories:
 ```
 	allprojects {
@@ -18,7 +18,7 @@ Add it in your root build.gradle (project level) at the end of repositories:
 		}
 	}
 ```
-
+**Step 2.**
 Add it in your settings.gradle if your pluginManagement and dependencyResolutionManagement is defined in settings.gradle file:
 ```
     pluginManagement {
@@ -37,7 +37,7 @@ Add it in your settings.gradle if your pluginManagement and dependencyResolution
     }
 ```
 
-Step 2. Add the dependency<br>
+**Step 3.** Add the dependency<br>
 Add it in your dependencies section of build.gradle (app level):
 ```
 	dependencies {
@@ -45,7 +45,7 @@ Add it in your dependencies section of build.gradle (app level):
 	}
 ```
 
-Step 3. Add these activities in your manifest file. in the application tag:
+**Step 4.** Add these activities in your manifest file. in the application tag:
 ```
 <activity android:name="ir.shahabazimi.instagrampicker.gallery.SelectActivity" />
 <activity android:name="ir.shahabazimi.instagrampicker.gallery.MultiSelectActivity"/>
@@ -55,7 +55,7 @@ Step 3. Add these activities in your manifest file. in the application tag:
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 ```
 
-# How to use it
+### How to use it
 For using this library just use the code below it is simple and straight forward.<br>
 
 For single image/video selection use this:
@@ -96,8 +96,21 @@ number of pics = an integer variable that determines the number of pictures that
 
 
 
-# Developed By
+### Developed By
 * Akanksha Gaikwad
 * Bhavesh Jethani
 
+### License
+Copyright 2023 Akanksha Gaikwad and Bhavesh Jethani
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
