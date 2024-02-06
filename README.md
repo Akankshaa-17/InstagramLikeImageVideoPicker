@@ -1,7 +1,7 @@
-# InstagramLikeImageVideoPicker
-To pick and capture the image and video both.
+# MediaPicker (Reference Of Instagram)
+Pick and capture the image, video or both.
 
-InstagramLikeImageVideoPicker is an android library that lets you choose single/multi pictures from gallery or camera.
+MediaPicker is an android library that lets you choose single/multi pictures from gallery or camera.
 
 
 [![](https://jitpack.io/v/Akankshaa-17/InstagramLikeImageVideoPicker.svg)](https://jitpack.io/#Akankshaa-17/InstagramLikeImageVideoPicker)
@@ -97,6 +97,7 @@ number of pics = an integer variable that determines the number of pictures that
 
 
 # Developed By
+* Akanksha Gaikwad
+* Bhavesh Jethani
 
-* Akanksha Gaikwad <akanksha.gaikwad@hiddenbrains.in>
 
