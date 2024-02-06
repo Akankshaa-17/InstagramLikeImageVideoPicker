@@ -93,7 +93,10 @@ X ratio, Y ratio = these two integer variables determines the crop aspect ratio 
 MediaTypeEnum = types are defined in this enum to use any of the required types.<br>
 number of pics = an integer variable that determines the number of pictures that user allowed to pick, a number between 2 and 1000<br>
 
-
+<br><br>
+**Reference Github Repo**<br> 
+Special Thanks to <a href="https://github.com/ShahabGT/InstagramPicker" target="_blank">InstagramPicker</a>
+<br><br>
 
 ### Developed By
 * Akanksha Gaikwad
