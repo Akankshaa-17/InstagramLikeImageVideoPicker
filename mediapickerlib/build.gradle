@@ -4,7 +4,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-parcelize'
 
 android {
-    compileSdkVersion versionTargetSdk
+    compileSdk versionTargetSdk
 
     defaultConfig {
         minSdkVersion versionMinSdk
@@ -47,26 +47,26 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$glide"
     kapt "com.github.bumptech.glide:compiler:$glide"
 //    implementation "androidx.core:core-ktx:1.9.0"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 
     // CameraX dependencies (first release for video is: "1.1.0-alpha10")
     // The following line is optional, as the core library is included indirectly by camera-camera2
-    implementation "androidx.camera:camera-core:1.2.2"
-    implementation "androidx.camera:camera-camera2:1.2.2"
+    implementation "androidx.camera:camera-core:$androidxCamera"
+    implementation "androidx.camera:camera-camera2:$androidxCamera"
     // If you want to additionally use the CameraX Lifecycle library
-    implementation "androidx.camera:camera-lifecycle:1.2.2"
+    implementation "androidx.camera:camera-lifecycle:$androidxCamera"
     // If you want to additionally use the CameraX View class
-    implementation "androidx.camera:camera-view:1.2.2"
+    implementation "androidx.camera:camera-view:$androidxCamera"
     // If you want to additionally use the CameraX Extensions library
-    implementation "androidx.camera:camera-extensions:1.2.2"
-    implementation 'androidx.camera:camera-video:1.2.2'
+    implementation "androidx.camera:camera-extensions:$androidxCamera"
+    implementation "androidx.camera:camera-video:$androidxCamera"
     implementation 'com.github.CameraKit:camerakit-android:v1.0.0-beta3.11'
 
-    implementation "androidx.legacy:legacy-support-v4:$legacy_support"
+    implementation "androidx.legacy:legacy-support-v4:$legacySupport"
     implementation "androidx.activity:activity-ktx:$activity"
 
     implementation 'com.github.CameraKit:jpegkit-android:v0.2.2'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinx_coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinxCoroutines"
 
 }
 /*repositories {

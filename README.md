@@ -1,5 +1,10 @@
 ### MediaPickerInstagram (Reference Of Instagram)
-Pick and capture the image, video or both.
+User will have 4 options in this library similer to instagram.
+1) Pick image from custom gallery, 
+2) capture image from camera, 
+3) Pick video from custom gallery
+4) Capture video from camera
+5) both.
 
 MediaPickerInstagram is an android library that lets you choose single/multi pictures from gallery or camera.
 
